@@ -4,41 +4,6 @@
   padding: 2rem;
 }
 
-thead tr td {
-  font-weight: 700;
-  text-transform: capitalize;
-}
-
-.page-items {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  .page-item {
-    list-style-type: none;
-    border: 1px solid #777;
-    padding: 0.5rem 1rem;
-    color: #777;
-
-    &:hover {
-      cursor: pointer;
-      border-color: #fff;
-      color: #fff;
-    }
-  }
-
-  .page-item.active {
-    border: 1px solid #fff;
-    color: #fff;
-  }
-
-  :is(:first-child) {
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-  }
-
-  :is(:last-child) {
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-  }
+.active {
+  color: #fff;
 }
